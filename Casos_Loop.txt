@@ -1,0 +1,12 @@
+main(){
+ int x = 2, y = 3;
+ for(int i = 0; i<y; i++){
+   x = x * i;
+ }
+ do{
+   y++;
+ }while(y != 10);
+ while(x != y){
+   x--;
+ }
+}
